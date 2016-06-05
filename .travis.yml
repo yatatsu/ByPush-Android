@@ -12,4 +12,4 @@ android:
 jdk:
   - oraclejdk8
 
-script: ./gradlew clean check
+script: ./gradlew clean bypush:check
