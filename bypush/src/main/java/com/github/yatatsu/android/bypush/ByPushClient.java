@@ -17,35 +17,6 @@
 
 package com.github.yatatsu.android.bypush;
 
-import java.util.Map;
+class ByPushClient {
 
-public class ByPush {
-
-  private static ByPushClient tracker;
-
-  /**
-   * Send token to server.
-   * You should pass {@link com.google.firebase.iid.FirebaseInstanceId#getToken()}
-   *
-   * @param token token
-   */
-  public static void saveDeviceToken(String token) {
-    // TODO
-  }
-
-  /**
-   * Send attributes to server.
-   *
-   * @param attributes attributes
-   */
-  public static void saveAttributes(Map<String, Object> attributes) {
-    // TODO
-  }
-
-  /**
-   * Track opening notification event.
-   */
-  public static void trackOpeningNotification() {
-    // TODO
-  }
 }
